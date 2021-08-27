@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: arm64 x86_64
+mac: false
+description: titanium-svg
+author: Hans Knöchel
+license: MIT
+copyright: Copyright (c) 2021 by Hans Knöchel
+
+# these should not be edited
+name: titanium-svg
+moduleid: ti.svg
+guid: 55d28564-1521-4e9a-bd23-5fc8ac4de869
+platform: iphone
+minsdk: 9.0.0

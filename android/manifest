@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86 x86_64
+description: titanium-svg
+author: Hans Knoechel
+license: Specify your license
+copyright: Copyright (c) 2021 by Your Company
+
+# these should not be edited
+name: titanium-svg
+moduleid: ti.svg
+guid: 55d28564-1521-4e9a-bd23-5fc8ac4de869
+platform: android
+minsdk: 10.0.2.GA

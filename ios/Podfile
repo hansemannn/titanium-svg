@@ -1,0 +1,9 @@
+plugin 'cocoapods-binary'
+install! 'cocoapods', :integrate_targets => false
+
+use_frameworks!
+platform :ios, '11.0'
+
+target "TiSvg" do
+    pod 'SVGKit', :binary => true
+end
